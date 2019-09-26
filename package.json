@@ -1,5 +1,5 @@
 {
-  "name": "json_to_csv",
+  "name": "easy-json-to-csv-converter",
   "version": "1.0.0",
   "description": "",
   "main": "src/index.js",
