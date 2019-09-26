@@ -7,7 +7,7 @@ interface IMappedColumns {
 }
 
 
-export let _DownloadJsonData = (JSONData: any, FileTitle: string,fileNameMode:number|null, ShowLabel: boolean, MappedColumn: IMappedColumns[]): void => {
+export let ConvertJSONtoCSV = (JSONData: any, FileTitle: string,fileNameMode:number|null, ShowLabel: boolean, MappedColumn: IMappedColumns[]): void => {
     var arrData = typeof JSONData != 'object' ? JSON.parse(JSONData) : JSONData;
     var CSV = '';
     if (ShowLabel) {
